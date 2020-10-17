@@ -1,0 +1,9 @@
+# BackOnDeath Config.yml
+locations:
+  29fdd12f-7fe5-3801-b364-97518436a5a4: world,578,82,240
+  67c8b30b-59c5-31e0-bc78-98252171a1db: world,23,38,237
+  2ddfdfda-bc41-3214-a07f-8fd5ad2ef5c8: world,544,72,116
+vault:
+  use: false
+  price: 0
+  currency: $

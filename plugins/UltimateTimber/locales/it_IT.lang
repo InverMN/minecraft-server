@@ -1,0 +1,43 @@
+######################################################
+# New messages added for UltimateTimber v2.0.8.      #
+#                                                    #
+# These translations were found untranslated, join   #
+# our translation Discord https://discord.gg/f7fpZEf #
+# to request an official update!                     #
+#                                                    #
+# general.nametag.prefix                             #
+# general.nopermission                               #
+# command.reload.description                         #
+# command.reload.reloaded                            #
+# command.toggle.description                         #
+# command.toggle.enabled                             #
+# command.toggle.disabled                            #
+# event.on.cooldown                                  #
+######################################################
+
+prefix: '&8[&6UltimateTimber&8] '
+no-permission: '&cNon hai i permessi per fare questo!'
+command-reload-description: Ricarica il file di configurazione.
+command-reload-reloaded: '&7I file di configurazione e lingue sono stati ricaricati.'
+command-toggle-description: Attiva o disattiva la modalità di taglio
+command-toggle-enabled: '&7Modalità di taglio: &aAttivata'
+command-toggle-disabled: '&7Modalità di taglio: &cDisattivata'
+on-cooldown: '&eSei in attesa e non puoi abbatere alberti adesso.'
+general:
+  nametag:
+    prefix: '&8[&6UltimateTimber&8] '
+  nopermission: '&cNon hai i permessi per farlo!'
+command:
+  reload:
+    description: Ricarica il file di configurazione.
+    reloaded: '&7I file di configurazione e di lingue sono stati ricaricati.'
+  toggle:
+    description: Attiva o disattiva la modalità di taglio
+    enabled: '&7Modalità di taglio: &aAttivata'
+    disabled: '&7Modalità di taglio: &cDisattivata'
+event:
+  'on':
+    cooldown: '&eSei in attesa e non puoi abbatere altri alberi adesso.'
+
+# Command Messages
+# Misc

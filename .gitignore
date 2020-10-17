@@ -1,0 +1,28 @@
+#root dir
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+world
+world_nether
+world_the_end
+logs
+cache
+
+#plugins' configs
+plugins/LuckPerms/luckperms-h2.mv.db
+plugins/WorldEdit/sessions
+plugins/DiscordSRV/discord-console-logs
+plugins/DiscordSRV/linkedaccounts.json
+plugins/bStats
+plugins/GriefPreventationData/ClaimData
+plugins/GriefPreventationData/Logs
+plugins/GriefPreventationData/PlayerData
+plugins/OpeNLogin/accounts.db
+plugins/mcMMO/flatfile
+plugins/mcMMO/backup
+plugins/Essentials/userdata
+plugins/Essentials/warps
+plugins/Essentials/usermap.csv
+plugins/PluginMetrics
