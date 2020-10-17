@@ -16,9 +16,9 @@ plugins/WorldEdit/sessions
 plugins/DiscordSRV/discord-console-logs
 plugins/DiscordSRV/linkedaccounts.json
 plugins/bStats
-plugins/GriefPreventationData/ClaimData
-plugins/GriefPreventationData/Logs
-plugins/GriefPreventationData/PlayerData
+plugins/GriefPreventionData/ClaimData
+plugins/GriefPreventionData/PlayerData
+plugins/GriefPreventionData/Logs
 plugins/OpeNLogin/accounts.db
 plugins/mcMMO/flatfile
 plugins/mcMMO/backup
