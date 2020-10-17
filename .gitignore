@@ -26,3 +26,6 @@ plugins/Essentials/userdata
 plugins/Essentials/warps
 plugins/Essentials/usermap.csv
 plugins/PluginMetrics
+plugins/SkinsRestorer/Players
+plugins/SkinsRestorer/Skins
+
