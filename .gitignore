@@ -10,6 +10,8 @@ world_the_end
 logs
 cache
 
+.console_history
+
 #plugins' configs
 plugins/LuckPerms/luckperms-h2.mv.db
 plugins/WorldEdit/sessions
