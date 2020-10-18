@@ -1,7 +1,7 @@
 KingsGuardianVamos:
   Type: WITHER_SKELETON
   Display: "&5King's Guardian Vamos"
-  Health: 150
+  Health: 100
   Damage: 8
   Options: 
     AlwaysShowName: true
