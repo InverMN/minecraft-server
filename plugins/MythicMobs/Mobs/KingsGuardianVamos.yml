@@ -1,0 +1,35 @@
+KingsGuardianVamos:
+  Type: WITHER_SKELETON
+  Display: "&5King's Guardian Vamos"
+  Health: 400
+  Damage: 8
+  Options: 
+    AlwaysShowName: true
+    KnockbackResistance: 0.85
+    MaxCombatDistance: 10
+    PreventOtherDrops: true
+    NoDamageTicks: 10
+  DamageMofifiers: 
+  - ENTITY_ATTACK 0.75
+  - PROJECTILE 0.75
+  - MAGIC 2.0
+  - FIRE 0.5
+  - FIRE_TICK 0.5
+  Equipment: 
+  - NETHERITE_HELMET HEAD
+  - NETHERITE_CHESTPLATE CHEST
+  - NETHERITE_LEGGINGS LEGS
+  - NETHERITE_BOOTS FEET
+  - NETHERITE_SWORD HAND
+  - SHIELD OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  KillMessages:
+  - '<target.name> had their soul completely devoured'
+  Modules:
+    ThreatTable: true
+    ImmunityTable: true
+  Skills:
+  - ignite{tick=20} @target ~onAttack <50%
