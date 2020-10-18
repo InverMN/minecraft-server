@@ -37,4 +37,4 @@ KingsGuardianVamos:
   - damagepercent{percent=0.25} @PlayersInRadius{r=10} ~onTimer:20 =33%
   - effect:flames @Self ~onTimer:10 <33%
   - effect:blockwave @Self =33%
-  - leap @Target 0.25
+  - leap{v=2000} @Target 0.25
