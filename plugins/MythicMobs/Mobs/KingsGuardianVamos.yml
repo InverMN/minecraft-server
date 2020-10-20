@@ -33,3 +33,4 @@ KingsGuardianVamos:
     ImmunityTable: true
   Skills:
   - skill{s=VamosLeap} @target >0 0.2
+  - skill{s=VamosExplosion} @self >0 0.1

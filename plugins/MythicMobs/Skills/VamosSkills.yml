@@ -8,5 +8,40 @@ VamosLeap:
   - teleport @target
   - blockwave @self
   - damage{amount=20;ignorearmor=false} @PlayersInRadius{r=3}
-  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=3}
+  - throw{velocity=5;velocityY=3} @PlayersInRadius{r=3}
   - effect:explosion @Self
+VamosExplosion: 
+  Cooldown: 5
+  Conditions:
+  - targetwithin 5
+  Skills: 
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:flames @self
+  - delay 3
+  - effect:particlering{particle=flame;radius=20;points=32;amount=1;hS=1;vS=0} @target
+  - ignite{ticks=100} @PlayersInRadius{r=3}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - damage{amount=8;ignorearmor=true} @PlayersInRadius{r=7}
