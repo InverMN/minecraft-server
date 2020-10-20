@@ -10,10 +10,10 @@ KingsGuardianVamos:
     PreventOtherDrops: true
     NoDamageTicks: 10
   DamageMofifiers: 
-  - ENTITY_ATTACK 0.75
-  - PROJECTILE 0.75
-  - MAGIC 2.0
-  - FIRE 0.5
+  - ENTITY_ATTACK 7.5
+  - PROJECTILE 5.0
+  - MAGIC 20.0
+  - FIRE 3.0
   - FIRE_TICK 0.5
   Equipment: 
   - NETHERITE_HELMET HEAD
