@@ -32,9 +32,4 @@ KingsGuardianVamos:
     ThreatTable: true
     ImmunityTable: true
   Skills:
-  - ignite{tick=20} @target ~onAttack <66%
-  - ignite{tick=100} @PlayerInRadius{r=10} <33%
-  - damagepercent{percent=0.25} @PlayersInRadius{r=10} ~onTimer:20 =33%
-  - effect:flames @Self ~onTimer:10 <33%
-  - effect:blockwave @Self =33%
-  - leap{v=2000} @Target 0.25
+  - skill{s=VamosLeap} @target >0 0.2

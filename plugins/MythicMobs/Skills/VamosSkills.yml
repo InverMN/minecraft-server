@@ -1,0 +1,10 @@
+VamosLeap: 
+  Cooldown: 10
+  Conditions:
+  - targetwithin 10
+  - leap{v=500} @target 0.25
+  - delay 20
+  - effect:blockwave @self
+  - damage{amount=20;ignorearmor=false} @PlayersInRadius{r=3}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=3}
+  - effect:explosion @Self
