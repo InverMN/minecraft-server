@@ -2,7 +2,7 @@ KingsGuardianVamos:
   Type: WITHER_SKELETON
   Display: "&5King's Guardian Vamos"
   Health: 100
-  Damage: 8
+  Damage: 4
   Options: 
     AlwaysShowName: true
     KnockbackResistance: 0.85
