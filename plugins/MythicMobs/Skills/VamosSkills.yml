@@ -2,6 +2,7 @@ VamosLeap:
   Cooldown: 10
   Conditions:
   - targetwithin 10
+  Skills:
   - leap{v=500} @target 0.25
   - delay 20
   - effect:blockwave @self
