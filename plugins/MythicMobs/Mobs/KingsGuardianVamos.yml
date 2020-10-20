@@ -33,4 +33,5 @@ KingsGuardianVamos:
     ImmunityTable: true
   Skills:
   - skill{s=VamosLeap} @target >0 0.2
-  - skill{s=VamosExplosion} @self >0 0.1
+  - skill{s=VamosExplosion} @target >0 0.1
+  - effect:particlering{particle=flame;radius=20;points=32;amount=1;hS=1;vS=0} @target 0.5
