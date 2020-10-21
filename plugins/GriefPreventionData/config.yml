@@ -76,7 +76,7 @@ GriefPrevention:
     ProtectFreshSpawns: true
     PunishLogout: true
     CombatTimeoutSeconds: 15
-    AllowCombatItemDrop: false
+    AllowCombatItemDrop: true
     BlockedSlashCommands: /home;/vanish;/spawn;/tpa
     ProtectPlayersInLandClaims:
       PlayerOwnedClaims: true
