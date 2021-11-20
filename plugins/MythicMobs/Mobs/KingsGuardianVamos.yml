@@ -9,7 +9,7 @@ KingsGuardianVamos:
     MaxCombatDistance: 10
     PreventOtherDrops: true
     NoDamageTicks: 10
-  DamageMofifiers: 
+  DamageModifiers: 
   - ENTITY_ATTACK 7.5
   - PROJECTILE 5.0
   - MAGIC 20.0
