@@ -1,17 +1,15 @@
 #root dir
-banned-ips.json
-banned-players.json
-ops.json
-usercache.json
-whitelist.json
-world
-world_nether
-world_the_end
-logs
-cache
-
-.*
-!.gitignore
+/banned-ips.json
+/banned-players.json
+/ops.json
+/usercache.json
+/whitelist.json
+/world
+/world_nether
+/world_the_end
+/logs
+/cache
+/.console_history
 
 #plugins' configs
 plugins/LuckPerms/luckperms-h2.mv.db
