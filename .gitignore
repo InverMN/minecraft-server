@@ -10,7 +10,8 @@ world_the_end
 logs
 cache
 
-.console_history
+.*
+!.gitignore
 
 #plugins' configs
 plugins/LuckPerms/luckperms-h2.mv.db
