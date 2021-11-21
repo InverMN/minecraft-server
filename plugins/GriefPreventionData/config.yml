@@ -73,7 +73,7 @@ GriefPrevention:
       world: true
       world_nether: true
       world_the_end: true
-    ProtectFreshSpawns: true
+    ProtectFreshSpawns: false
     PunishLogout: true
     CombatTimeoutSeconds: 15
     AllowCombatItemDrop: true
