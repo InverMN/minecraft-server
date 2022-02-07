@@ -61,6 +61,8 @@ commands:
   - tellraw
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
     thunder-chance: 100000
     verbose: true
     hopper-amount: 1
